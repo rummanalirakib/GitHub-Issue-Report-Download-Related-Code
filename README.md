@@ -24,13 +24,11 @@ Before running the main script, you need to configure a few files.
 Open the github_urls file.
 Below the existing column header, add the URLs of the GitHub repositories from which you want to download issue reports. Ensure that you do not change the column name.
 Example:
-
-plaintext
-Copy code
+```
 repository_url
 https://github.com/user/repo1
 https://github.com/user/repo2
-
+```
 ### Output Directory
 All downloaded files will be stored in the data folder, which is located inside the config folder.
 
@@ -42,7 +40,7 @@ If you wish to re-download specific information, simply delete the relevant entr
 ### Running the Script
 To run the downloader, execute the following command:
 
-bash
-Copy code
+```
 python main.py
+```
 Note: Make sure you have all dependencies installed, and your environment is correctly set up.
